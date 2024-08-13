@@ -9,6 +9,16 @@ This is a simple Number Guessing Game built using HTML, CSS, and JavaScript. The
 - Option to reset the game at any time.
 - Multiple language support (English and Hong Kong).
 
+## Demonstration
+
+**Link:** https://kenkwok630.github.io/Number-Guessing-Game/
+
+**Hong Kong language**
+![1](https://github.com/user-attachments/assets/2437665a-7c43-42c5-9ad0-b6fa83fd0a53)
+
+**English language**
+![2](https://github.com/user-attachments/assets/d874f536-9f90-4214-8e95-b2bed8035048)
+
 ## File Structure
 
 - **index.html**: The main HTML file for the Hong Kong version of the game.
