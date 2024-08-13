@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-hk">
+  <head>
+    <title>開口中 Number Guessing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    
+    <header>
+    <h1 class="title">開口中遊戲</h1>
+    <div class="dropdown">
+    <button class="language"><i class="fa-solid fa-language"></i> Language <i class="fa-solid fa-caret-down"></i></button>
+      <div class="lang">
+        <a href="index.html"><img src="image/hk.png" width="32" height="32" alt="hong kong language"> 香港中文</a>
+        <a href="index_en.html"><img src="image/uk.png" width="32" height="32" alt="United Kingdom"> English</a>
+      </div>
+    </div>
+    </header>
+    <main>
+      <p class="areaNumber" id="areaNumber"><i class="fa-solid fa-arrow-down-1-9"></i>範圍: 1 - 100</p>
+      <p class="resultNumber" id="resultNumber"></p>
+      <p class="resultNumber" id="resultLabel"></p>
+
+      <div class="inputType">
+        <label>數字:</label>
+        <input type="number" min="2" max="99" id="guessNumber" placeholder="請輸入數字">
+      </div>
+      <p class="wrongNumber" id="wrongLabel"></p>
+
+      <div class="submitBtn">
+        <button type="submit" id="submit" class="submit">提交</button>
+        <button type="submit" id="reset" class="reset">重新開始</button>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

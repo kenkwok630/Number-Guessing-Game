@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Number Guessing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    
+    <header>
+    <h1 class="title">Number Guessing</h1>
+    <div class="dropdown">
+    <button class="language"><i class="fa-solid fa-language"></i> Language <i class="fa-solid fa-caret-down"></i></button>
+      <div class="lang">
+        <a href="index.html"><img src="image/hk.png" width="32" height="32" alt="hong kong language"> 香港中文</a>
+        <a href="index_en.html"><img src="image/uk.png" width="32" height="32" alt="United Kingdom"> English</a>
+      </div>
+    </div>
+    </header>
+    <main>
+      <p class="areaNumber" id="areaNumber"><i class="fa-solid fa-arrow-down-1-9"></i>Range: 1 - 100</p>
+      <p class="resultNumber" id="resultNumber"></p>
+      <p class="resultNumber" id="resultLabel"></p>
+
+      <div class="inputType">
+        <label>Number:</label>
+        <input type="number" min="2" max="99" id="guessNumber" placeholder="Enter a number">
+      </div>
+      <p class="wrongNumber" id="wrongLabel"></p>
+
+      <div class="submitBtn">
+        <button type="submit" id="submit" class="submit">Submit</button>
+        <button type="submit" id="reset" class="reset">Restart</button>
+      </div>
+    </main>
+
+    <script src="index_en.js"></script>
+  </body>
+</html>
