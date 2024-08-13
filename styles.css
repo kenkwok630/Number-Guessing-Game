@@ -2,7 +2,7 @@ body {
     font-family: Verdana;
     font-size: 18px;
     margin: 0;
-    background-image: url(/image/background.webp);
+    background-image: url("/image/background.webp");
     background-repeat: no-repeat;
     background-position: center; 
 }   
